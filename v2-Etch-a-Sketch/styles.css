@@ -1,0 +1,65 @@
+
+
+.bodyClass {
+    background-size: cover;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.headerText {
+    color: rgb(0, 255, 0);
+    font-weight: 900;
+    font-size: 56px;
+    margin: 0px;
+    margin-bottom: 20px;
+    border: solid rgb(0, 255, 0) 10px;
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#layoutButton {
+    background: url('./buttonBackground.png') no-repeat scroll 0 0 transparent;
+    background-size: cover;
+    background-position: 0px;
+    border-radius: 100%;
+    width: 150px;
+    height: 195px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 0px;
+    color: rgb(255, 17, 0);
+    font-size:x-large;
+    font-weight: 1000;
+    
+}
+
+#layoutButton:hover {
+    color: rgb(0, 255, 0) ;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 75vh;
+    width: 100vh;
+    background-color: rgb(55, 133, 19);
+    opacity: 0.9;
+    flex-basis: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+} 
+
+.div1 {
+    display: flex;
+
+    flex-basis: calc(100% / 16);
+    height: auto;
+    max-height: 100%;
+    background-color: rgb(28, 49, 8);
+    margin: 0px;
+    
+}
